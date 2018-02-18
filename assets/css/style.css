@@ -1,19 +1,89 @@
+/************************************
+GLOBAL STYLES
+************************************/
+body {
+  background-image: url("../images/ironthrone-background.jpg");
+  background-size: 275px auto;
+}
+/************************************
+END GLOBAL STYLES
+************************************/
+
+/************************************
+JUMBOTRON
+************************************/
+.jumbotron {
+  background-image: url("../images/hero.jpeg");
+  padding: 20% 0;
+  margin-bottom: 1%;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+/************************************
+END JUMBOTRON
+************************************/
+
+/************************************
+TRIVIA CONTAINER
+************************************/
 .trivia-container {
   border: solid 1px black;
-}
-
-h1 {
-  color: #e6e6e6;
-}
-h2 {
-  color: #ccc;
-}
-
-.trivia-container {
   height: 30em;
-}
+  background-color: black;
 
+}
 #start-btn {
   padding: 2% 40%;
   overflow: auto;
 }
+#startOver-btn {
+  padding: 2% 40%;
+  overflow: auto;
+}
+.answerOptions .thisChoice {
+  font-size: 15px;
+  line-height: 2em;
+  cursor: pointer;
+}
+.answerOptions .thisChoice:hover {
+  border: solid 2px yellow;
+  background-color: black;
+  color: white;
+}
+.btn {
+  font-size: 25px;
+}
+#startOver-btn {
+  margin-top: 2%;
+}
+h2 {
+  color: blue;
+}
+#currentQuestion {
+  font-size: 25px;
+  color: white;
+}
+.question {
+  font-size: 20px;
+  color: white;
+}
+.answerOptions {
+  font-size: 15px;
+  color: white;
+}
+#rightWrong {
+  font-size: 25px;
+  color: white;
+}
+#correctAnswer {
+  font-size: 15px;
+  color: white;
+}
+#finalOutcome, #correctCounter, #incorrectCounter, #unanswered {
+  font-size: 25px;
+  color: white;
+}
+/************************************
+END TRIVIA CONTAINER
+************************************/

@@ -3,9 +3,13 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Trivia Game</title>
+
   <!-- Bootstrap -->
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
   <!-- Styles -->
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
@@ -26,10 +30,26 @@
         <button type="button" class="btn btn-outline-secondary btn-large" id="start-btn">Start</button>
       </div>
 
-      <!-- where the trivia stuff goes -->
-      <div id="trivia-area">
-        
-      </div>
+      <!-- questions -->
+      <div id="timeUp"></div>
+      <div id="currentQuestion"></div>
+      <div class="question"></div>
+      <div class="answerOptions"></div>
+      <!-- end questions -->
+
+      <!-- Answers -->
+      <div id="rightWrong"></div>
+      <div id="correctAnswer"></div>
+      <div id="gif"></div>
+      <!-- End Answers -->
+
+      <!-- Scores -->
+      <div id="finalOutcome"></div>
+      <div id="correctCounter"></div>
+      <div id="incorrectCounter"></div>
+      <div id="unanswered"></div>
+      <button type="button" class="btn btn-outline-secondary btn-large" id="startOver-btn">Start Over</button>
+      <!-- End Scores -->
     </div>
   </div>
 

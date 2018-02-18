@@ -2,11 +2,14 @@
 *A Game of Thrones Trivia Game.  I wrote 8 silly game of thrones trivia questions, and added some cool styling.  Questions are on a timer, and the game can be run without re-loading the page.*
 
 Updated the portfolio page with link as well
-[1]: https://stetsonramey.github.io/Responsive-Portfolio/portfolio.html
-[2]: https://stetsonramey.github.io/TriviaGame/
+
 
 [Portfolio Page][1]
+
 [Trivia Game Page][2]
+
+[1]: https://stetsonramey.github.io/Responsive-Portfolio/portfolio.html
+[2]: https://stetsonramey.github.io/TriviaGame/
 
 
 Table of Contents

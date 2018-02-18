@@ -117,7 +117,7 @@ $("#startOver-btn").hide();
 
 // setup the timer
 function timer() {
-  seconds = 10;
+  seconds = 15;
   // display the starting time and set the interval
   $("#timeUp").html("<h2>Time Til You Die: " + seconds + "</h2>");
   answered = true;

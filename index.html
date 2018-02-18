@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Trivia Game</title>
+  <!-- Bootstrap -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- Styles -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <!-- Header for Game -->
+    <div class="jumbotron" style="background-color: #002080;">
+      <h1 class="display-2 text-center"><strong>Game of Thrones Trivia</strong></h1>
+      <h2 class="display-5 text-center">In the Trivia of Thrones, You Win, or You Die</h2>
+    </div>
+    <!-- This is where the guts go, what we'll change with the javascript -->
+    <div class="container trivia-container text-center d-flex flex-column align-items-center justify-content-center">
+
+      <!-- start button -->
+      <div class="container">
+        <button type="button" class="btn btn-outline-secondary btn-large" id="start-btn">Start</button>
+      </div>
+
+      <!-- where the trivia stuff goes -->
+      <div id="trivia-area">
+        
+      </div>
+    </div>
+  </div>
+
+  <!-- JQery -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- linking our js file -->
+  <script type="text/javascript" src="assets/javascript/app.js"></script>
+
+</body>
+
+</html>

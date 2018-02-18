@@ -1,0 +1,19 @@
+.trivia-container {
+  border: solid 1px black;
+}
+
+h1 {
+  color: #e6e6e6;
+}
+h2 {
+  color: #ccc;
+}
+
+.trivia-container {
+  height: 30em;
+}
+
+#start-btn {
+  padding: 2% 40%;
+  overflow: auto;
+}

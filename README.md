@@ -4,6 +4,7 @@
 Updated the portfolio page with link as well
 
 [Stetson Portfolio Page](https://stetsonramey.github.io/Responsive-Portfolio/portfolio.html)
+[Stetson Trivia Game Page](https://stetsonramey.github.io/TriviaGame/)
 
 
 Table of Contents

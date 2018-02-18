@@ -65,9 +65,7 @@ function stop() {
 
 
 //TODO: when start is pressed, display the timer and the first questions and the first questions answers
-for (var question in qAndA) {
-  console.log(`qAndA.${}`);
-}
+
 
 //TODO: when answer selected, display 'Correct!' for the correct answer, or 'Nope!' for an incorrect answer.  If answered incorrectly, display the correct answer.  The game should advance to the next question after 5 seconds automatically
 
